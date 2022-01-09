@@ -1,0 +1,26 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "Web Scrapper",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amitbangarwa/scrapper.git"
+  },
+  "author": "amit.bangarwa@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitbangarwa/scrapper/issues"
+  },
+  "homepage": "https://github.com/amitbangarwa/scrapper#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
